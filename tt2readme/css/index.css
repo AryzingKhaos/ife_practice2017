@@ -1,0 +1,203 @@
+.main{
+	position: relative;
+	/*width:1920px;*/
+	width: 100%;
+	height:1424px;
+	overflow: hidden;
+	
+}
+.main .bg{
+	position: absolute;
+	left:50%;
+	margin-left:-960px;
+	width:1920px;
+	height: 1424px;
+	background: url(../images/bg.jpg) 0 0 no-repeat;
+}
+.nav{
+	position: absolute;
+	top:47px;
+	left:50%;
+	margin-left: 240px;
+	width:270px;
+	height: 30px;
+	background: url(../images/nav.png) 0 0 no-repeat ;
+}
+.nav .link{
+	display: block;
+	float: left;
+	margin-left: 19.5px;
+	color: #fff;
+	font:normal 14px/29px "microsoft yahei";
+}
+.nav .link.nlr{
+	margin-left: 27px;
+}
+.nav .weqrcode{
+	position: absolute;
+	top: 33px;
+	left: 155px;
+	opacity: 0.8;
+}
+.computer{
+	position: absolute;
+	top:312px;
+	left:50%;
+	margin-left: -383.5px;
+	width: 767px;
+	height: 418px;
+	background: url(../images/pc.png) 0 0 no-repeat;
+}
+.computer .btn{
+	display: block;
+	position: absolute;
+	left:50%;
+	margin-left: -144.5px;
+	width:289px;
+	height:84px;
+}
+.computer .btnadr{
+	top:55px;
+	background: url(../images/btnandroid.jpg) 0 0 no-repeat;
+}
+.computer .btnios{
+	top:156px;
+	background: url(../images/btnios.jpg) 0 0 no-repeat;
+}
+.computer .btn.btnreadme{
+	top:260px;
+	background: url(../images/btnsetup.png) 0 0 no-repeat;
+
+}
+.config{
+	position: absolute;
+	top:742px;
+	left:50%;
+	margin-left: -475px;
+	width:950px;
+	height:88px;
+	text-align: center;
+	font:normal 16px/36px "microsoft yahei";
+}
+
+.swdiv{
+	position: absolute;
+	top:860px;
+	left:50%;
+	margin-left: -500px;
+	width:1000px;
+	height:457px;
+	background-color: #fff;
+}
+.swimgdiv{
+	position: absolute;
+	top:12px;
+	left:50%;
+	margin-left: 0;
+	margin-left:-490px;
+	width:980px;
+	height:435px;
+	overflow: hidden;
+}
+.swimgdivscroll{
+	margin-left: 0;
+}
+.swimgone{
+	float: left;
+	width:980px;
+	height:435px;
+	overflow: hidden;
+}
+.swdotdiv{
+	position: absolute;
+	top:1342px;
+	left:50%;
+	margin-left: -125px;
+	width:250px;
+	height:18px;
+	text-align: center;
+}
+.swdot{
+	display: inline-block;
+}
+.swdotone{
+	display: block;
+	float: left;
+	margin-right:18px;
+	width:18px;
+	height:18px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.swdotone.cur{
+	background-color: #5e65b2;
+}
+.swdotone.nmr{
+	margin-right:0px;
+
+}
+.mask{
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	opacity: 0.6;
+	background-color: #000;
+	z-index:99;
+}
+.popbox{
+	position: fixed;
+	margin:-369px 0 0 -450px;
+	top:50%;
+	left:50%;
+	width:900px;
+	height: 738px;
+	background-color: #fff;
+	z-index:100;
+}
+.popbox .closebtn{
+	display: block;
+	position: absolute;
+	top:20px;
+	right:20px;
+	width:44px;
+	height:44px;
+	background:url(../images/closebtn.png) 0 0 no-repeat;
+	cursor:pointer;
+}
+.popbox .poptit{
+	/*position: absolute;*/
+	/*top:60px;*/
+	margin:60px 0 0 0;
+	width:100%;
+	text-align: center;
+	font:normal 30px "microsoft yahei";
+}
+
+#scrollbar1{
+	margin:40px 20px 0 56px;
+	width:824px;
+	height:550px;
+}
+#scrollbar1 .viewport {
+	 width: 804px; 
+	 height: 550px; 
+	 overflow: hidden; 
+	 position: relative; 
+}
+.overview img{
+	display: block;
+	/*text-align: center;*/
+	margin:40px auto 40px auto;
+	max-width:804px;
+}
+.overview h2{
+	font:normal 24px "microsoft yahei";
+}
+.overview h4{
+	font:normal 18px "microsoft yahei";
+}
+.overview p{
+	font:normal 14px "microsoft yahei";
+}

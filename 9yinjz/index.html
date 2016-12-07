@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui" />
+    <link rel="stylesheet" type="text/css" href="http://static.woniu.com/stylesheets/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/leaves.css" />
+	<title>决战光明顶-天命门派</title>
+	<meta name="description" id="description" content="11月3日 iOS开放下载，四大门派广纳江湖贤士，哪个门派是你的内心所属呢？赶快来看看你的天命门派是哪个。">
+	<script type="text/javascript">
+        //为页面html动态设置font-size值
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                    recalc = function () {
+                        var clientWidth = docEl.clientWidth;
+                        if (!clientWidth) return;
+                        docEl.style.fontSize = clientWidth / 7.5 + 'px';
+                        //等价于clientWidth / 750 * 100 + 'px';
+                    };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);//resize
+            doc.addEventListener('DOMContentLoaded', recalc, false);//reload
+        })(document, window);
+    </script>
+</head>
+<body>
+	
+<img src="" id="shareimg" style="width:0;height:0;">
+<div class="page page1 cur">
+	<div class="screen-bg"><img src="./images/bg1.jpg" alt=""></div>
+	<div class="screen-midbg"><img src="./images/bg2.png" alt=""></div>
+	<div class="textdiv">
+		<div class="text text1"></div>
+		<div class="text text2"></div>
+		<div class="text text3"></div>
+		<div class="text text4"></div>
+		<div class="text text5"></div>
+		<div class="text text6"></div>
+		<div class="text text7"></div>
+	</div>
+	<!-- <div id="container"> -->
+	<div class="leafContainerdiv">
+		<div id="leafContainer"></div>
+	</div>
+	<a href="javascript:;" class="enterbut"><img src="./images/entbutton.jpg" alt=""></a>
+</div>
+<div class="page page2">
+	<div  style="width:0;height:0;display:none;">
+		<img id="hideimg1" src="./images/job1.jpg" alt="">
+		<img id="hideimg2" src="./images/job2.jpg" alt="">
+		<img id="hideimg3" src="./images/job3.jpg" alt="">
+		<img id="hideimg4" src="./images/job4.jpg" alt="">
+		<img id="hideimg5" src="./images/job5.jpg" alt="">
+	</div>
+	<canvas id="myCanvas"></canvas>
+	<a class="clickstop" href="javascript:;"><img src="./images/clickstop.png" alt=""></a>
+</div>
+<div class="page page3">
+	<div class="screen-bg"><img src="./images/bg3.jpg" alt=""></div>
+	<div class="result">大侠，你的天命门派是<i>华山派</i><br/><span>11月3日iOS先锋上架</span>，下载游戏登录吧！
+	</div>
+	<div class="jobchos"><img src="./images/jobend1.png" alt=""></div>
+	<a href="javascript:;" class="shrbtn"></a>
+	<a href="https://itunes.apple.com/us/app/jue-zhan-guang-ming-ding-chang/id1120120711?l=zh&ls=1&mt=8" class="dwbtn"></a>
+	<div class="mask">
+		<img src="./images/sharemask.png" alt="">
+	</div>
+</div>
+
+
+
+<script type="text/javascript" src="./js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="./js/leaves.js"></script>
+<script type="text/javascript" src="http://static.woniu.com/script/module/wxshare/2.0.1/index.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,704 @@
+body{
+	font-family: "Microsoft Yahei";
+	background-color: rgb(248,248,248);
+	margin:0;
+}
+img{
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:rgb(57,160,48);
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+	height:0;
+	overflow: hidden;
+	visibility: hidden;
+}
+.clearfix{
+	zoom:1;
+}
+.displaynone{
+	display: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+@media screen and (min-width: 1206px){
+	.pointone .content{
+		width:240px;
+	}
+	.m-content .left .courses{
+		width:980px;
+	}
+	.m-content .left{
+		width:980px;
+	}
+}
+
+@media screen and (max-width: 1206px){
+	.pointone .content{
+		width:170px;
+	}
+	.m-content .left .courses{
+		width:735px;
+	}
+	.m-content .left{
+		width:735px;
+	}
+}
+
+.msg{
+	background-color: rgb(243,243,243);
+}
+.msg .content{
+	/*float:left;*/
+	position: relative;
+	margin:0 auto;
+	z-index: 99;
+	width:1206px;
+	color:rgb(90,90,90);
+	font:normal 13px/32px "Microsoft Yahei";
+}
+.msg .content .close{
+	float:right;
+}
+
+.msg .content .close .closebtn{
+	float: left;
+	margin-top:7px;
+/*	top:200px;
+	right:40px;*/
+	cursor: pointer;
+	width:26px;
+	height:20px;
+	background: url("./img/icon.png")  -65px -98px no-repeat;
+}
+
+.msg .content .close a{
+	margin-right: 5px;
+	/*text-decoration: underline;*/
+
+}
+
+.h-header{
+	margin:0 auto;
+	width:1206px;
+	height:93px;
+	position: relative;
+}
+.h-header .content{
+	margin:20px 0;
+}
+.h-header img{
+	float:left;
+
+}
+.h-header .follow{
+	float:left;
+	margin-left: 20px;
+	background: url(./img/icon.png) 0 -100px no-repeat;
+	font-size:14px;
+	width:56px;
+	height:22px;
+	cursor: pointer;
+	text-align: left;
+	color:white;
+	
+}
+.h-header .havefollow {
+	display: none;
+	float:left;
+	margin-left: 20px;
+	background: url(./img/icon.png) -353px -100px no-repeat;
+	font-size:12px;
+	line-height:24px;
+	width:107px;
+	height:22px;
+	text-align: left;
+	text-indent: 75px;
+	color:#999;
+}
+.h-header .havefollow a:hover{
+	color:rgb(57,160,48);
+	text-decoration: underline;
+}
+
+.h-header .follower{
+	float: left;
+	margin:0 20px;
+	font-size:14px;
+}
+
+.h-header ul.nav{
+	margin:0;
+	float:right;
+	list-style: none;
+}
+.h-header ul.nav li,a:visited{
+	float:left;
+	font-size:16px;
+	margin:0 40px;
+	color:rgb(102,102,102);
+}
+.h-header ul.nav a{
+	color:rgb(102,102,102);
+}
+.h-header ul.nav a:hover{
+	color:rgb(57,160,48)!important;
+}
+.h-header ul.nav .find{
+	background: url(./img/icon.png) -94px -100px no-repeat;
+	width:20px;
+	height:20px;
+}
+.h-header ul.nav .find:hover{
+	background:url(./img/icon.png) -324px -100px no-repeat;
+}
+.h-header ul.nav .find a{
+	width:20px;
+	height:20px;
+}
+
+.h-header ul.nav a:hover{
+	color:#39a030;
+}
+
+
+
+
+.s-slide{
+	position: relative;
+	margin:0 auto;
+	width:1650px;
+	height:460px;
+}
+.slideone{
+	position: absolute;
+	/*display: none;*/
+	/*opacity: 0;*/
+
+}
+
+.slideone.current{
+	display: block;
+	/*opacity: 1;*/
+}
+
+.count{
+	/*float:right;*/
+	position: absolute;
+	margin:0 auto;
+	padding:0;
+	left:45%;
+	bottom:10px;
+}
+
+.count i{
+	background-color: #fff;
+	margin:0;padding:0;
+	margin-right:10px;
+	cursor: pointer;
+	display:block;
+	float: left;
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	z-index:100;
+}
+
+.count i.current{
+	background-color: #333;
+}
+
+.p-point{
+	margin:0 auto;
+	width:1206px;
+	height:296px;
+}
+.p-point .pointone{
+	float: left;
+	width:343px;
+	height:180px;
+	margin:63px 0 61px 84px;
+
+}
+.p-point .pointone .icon1 , .icon2 ,.icon3{
+	float: left;
+	margin:30px 20px 0 0;
+	width:81px;
+	height:81px;
+}
+
+
+.p-point .pointone .content{
+	float: left;
+	margin:0;
+	
+	height:180px;
+	font-size:16px;
+}
+
+.p-point .pointone .icon1{
+	background: url(./img/icon.png) 0 0 no-repeat;
+
+}
+.p-point .pointone .icon2{
+	background: url(./img/icon.png) -102px 0 no-repeat;
+}
+.p-point .pointone .icon3{
+	background: url(./img/icon.png) -204px 0 no-repeat;
+}
+
+
+.p-point .pointone span.title{
+	font-size:22px;
+	line-height:60px;
+}
+
+.p-point .pointone span.more a{
+	font-size:16px;
+	text-decoration: none;
+	color:rgb(57,160,48);
+}
+.p-point .pointone span.more a:hover{
+	text-decoration: underline;
+}
+
+.noleftmargin{
+	margin-left:0!important;
+}
+
+.m-photo{
+	margin:0 auto;
+	position: relative;
+	width:1652px;
+	
+}
+.m-photo img{
+	float: left;
+	margin:0 5px;
+}
+
+.m-content {
+	margin:84px auto 100px;
+	width:1206px;
+
+}
+.m-content .left {
+	float:left;
+	/*width:980px;*/
+	
+	/*margin:0 0 120px 0;*/
+
+	
+}
+.m-content .left .labels{
+	float:left;
+	/*width:960px;*/
+}
+.m-content .left .labels .labelone{
+	float:left;
+	width:200px;
+	height:50px;
+	text-align: center;
+	font:normal 20px/50px "Microsoft Yahei";
+	background-color: #fff;
+	color:rgb(102,102,102);
+	box-shadow: 1px 1px 1px #999;
+}
+.m-content .left .labels .labelone.act{
+	background-color: rgb(57,160,48);
+	color:#fff;
+}
+
+.m-content .left .coursepart{
+	float: left;
+	position: relative;
+}
+
+.m-content .left .courses {
+	float:left;
+	/*height:1250px;*/
+	margin:30px 0 0 0;
+}
+
+.m-content .left .courses .course{
+	float: left;
+	margin:0 20px 20px 0;
+	width:225px;
+	height:230px;
+	background-color: #fff;
+}
+.m-content .left .courses .courseop{
+	display: none;
+	position: absolute;
+	top:-10px;
+	left:-10px;
+	width:480px;
+	/*height:240px;*/
+	background-color: #fff;
+	border: 1px solid #999;
+	z-index:2;
+}
+
+.m-content .left a.coursepart:hover .courseop{
+	display: block;
+}
+
+.m-content .left .courses .courseop .imgdiv{
+	margin:10px;
+}
+
+.m-content .left .courses .courseop .content{
+	width:220px;
+	margin:10px 0 0 5px;
+	font:normal 12px/24px "Microsoft Yahei";
+}
+.m-content .left .courses .courseop .title{
+	width:220px;
+	font:bold 18px "Microsoft Yahei";
+}
+
+.m-content .left .courses .courseop .intr{
+	margin:5px 0 0 0 ;
+	padding:25px 20px 10px 20px;
+	width:440px;
+	background-color: rgb(248,248,248);
+	font:normal 14px/28px "Microsoft Yahei";
+}
+
+
+.m-content .left .courses .course img{
+	transition: all 400ms ease-in-out;
+}
+.m-content .left .courses .course .imgdiv{
+	/*max-width: 223px;
+	max-height: 124px;*/
+	width: 223px;
+	height: 124px;
+	overflow: hidden;
+}
+.m-content .left .courses .course:hover img{
+	transform: scale(1.2);
+}
+.rmrightmargin{
+	margin-right: 0!important;
+}
+
+.m-content .course .title{
+	margin:4px 5px;
+	font:normal 12px/12px "Microsoft Yahei";
+	color:#000;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.m-content .course .belong{
+	margin:10px 5px;
+	font:normal 11px/11px "Microsoft Yahei";
+	color:rgb(153,153,153);
+}
+.m-content .course .studentnumber{
+	margin:10px 5px;
+	width:50px;
+	height:16px;
+	border:1px solid #aaa;
+	border-radius:2px;
+
+	font:normal 8px "Microsoft Yahei";
+	color:rgb(153,153,153);
+
+}
+.people{
+	float: left;
+	margin:2px 1px;
+	width:13px;
+	height:13px;
+	background: url(./img/icon.png) -131px -104px no-repeat;
+}
+.m-content .course .studentnumber .people{
+	float: left;
+	margin:2px 1px;
+	width:13px;
+	height:13px;
+	background: url(./img/icon.png) -131px -104px no-repeat;
+}
+
+.m-content .course .studentnumber i{
+	display: inline-block;
+}
+
+.m-content .course .price{
+	margin:10px 5px;
+	font:bold 11px/11px "Microsoft Yahei";
+	color:red;
+}
+
+.m-content .left .pages{
+	float: right;
+
+}
+
+.m-content .left .pages .larrow,.rarrow{
+	float: left;
+	display: block;
+	width: 31px;
+	height:22px;
+	background-color: #9fd7b2;
+	background: url(./img/icon.png) -183px -100px no-repeat;
+}
+.m-content .left .pages .rarrow{
+	background-position: -224px -100px;
+}
+.m-content .left .pages .pagenum{
+	margin:0 3px;
+	float: left;
+	display: block;
+	width: 20px;
+	height:22px;
+	text-align: center;
+	font:normal 14px/22px "Microsoft Yahei";
+}
+.m-content .left .pages a.pagenum:hover{
+	color:#fff;	
+	background-color: #9fd7b2;
+}
+.pagenum.current{
+	color:#fff;
+	background-color: #9fd7b2;
+}
+
+
+.m-content .right{
+	float: left;
+	width:225px;
+	margin:0 0 0 0px;
+}
+.m-content .right .introduce{
+	width:225px;
+	height:230px;
+	color:#fff;
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 1px #999;
+}
+.m-content .right .introduce .intrcontent{
+	margin:18px 0 0 18px;
+	width:182px;
+	height:135px;
+	color:#000;
+	font:normal 14px "Microsoft Yahei";
+}
+
+.m-content .right .introduce #videobrow{
+	position: relative;
+	cursor: pointer;
+	width:189px;
+	height:125px;
+	background: url(./img/videobrow.jpg) 0 0 no-repeat;
+}
+
+.m-content .right .introduce #videobrow .playicon{
+	position: absolute;
+	top:32px;
+	left:70px;
+	width:50px;
+	height:50px;
+	background: url(./img/icon.png) -314px 0 no-repeat;
+	z-index: 10;
+}
+
+.m-content .right .title{
+	padding: 15px;
+	border-bottom: 1px solid #999;
+	font:normal 16px "Microsoft Yahei";
+	color:#333;
+}
+.m-content .right .rank{
+	margin:25px 0 0 0 ;
+	width:225px;
+	height:780px;
+	color:#fff;
+	border: 1px solid #ddd;
+	box-shadow: 1px 1px 1px #999;
+}
+.rankper{
+	position: relative;
+	height:700px;
+	overflow: hidden;
+}
+
+.rankdiv{
+	position: absolute;
+	top:0;
+}
+.m-content .right .rank .rankdiv .rankone{
+	margin:20px;
+
+}
+.m-content .right .rank .rankdiv .rankone img{
+	float: left;
+}
+.m-content .right .rank .rankdiv .rankone .rankc{
+	float: left;
+
+}
+.m-content .right .rank .rankdiv .rankone .rankt{
+	margin:0 0 0 10px;
+	width:120px;
+	color:rgb(70,70,70);
+	font:normal 14px "Microsoft Yahei";
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.m-content .right .rank .rankdiv .rankone .ranknum{
+	margin:8px 0 0 10px;
+	width:120px;
+	color:rgb(120,120,120);
+	font:normal 12px "Microsoft Yahei";
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.f-footer{
+	margin:0 auto;
+	height:258px;
+	background-color: rgb(44,51,57);
+}
+
+.f-footer .content{
+	margin:0 auto;
+	width:950px;
+}
+.f-footer .content .f-l{
+	float: left;
+	margin:93px 0 0 0;
+	width:400px;
+	color:rgba(255,255,255,0.6);
+	font:normal 12.5px/25px "Microsoft Yahei";
+}
+
+.f-footer .content .f-l .word{
+	margin:15px 0 0 0;
+}
+
+.f-footer .content .f-r {
+	float: right;
+	margin:80px 0 0 0;
+	font:normal 12.5px/29.1px "Microsoft Yahei";
+	color:rgba(255,255,255,0.6);
+}
+.f-footer .content .f-r .f-r-1,.f-r-2,.f-r-3{
+	float: left;
+	margin:0 0 0 100px;
+	color:rgba(255,255,255,0.6);
+
+}
+.f-footer .content .f-r a{
+	font:normal 14.5px/29.1px "Microsoft Yahei";
+	color:rgba(255,255,255,0.6);
+
+	
+
+}
+.f-footer .content .f-r a:hover{
+	text-decoration: underline;
+}
+
+#mongolia{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity: 0.5;
+	z-index:998;
+}
+#login{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width:390px;
+	height:290px;
+	background-color:#fff;
+	z-index:999;
+}
+
+#login .logincontent{
+	margin:30px 37px 30px 37px;
+}
+
+#login .logincontent .logintitle{
+	position: relative;
+	color:#000;
+	font:normal 18px "Microsoft Yahei";
+
+}
+#loginclosebtn{
+	position:absolute;
+	top:10px;
+	right:0;
+	cursor: pointer;
+	width: 26px;
+	height: 20px;
+	background: url("./img/icon.png") -296px -100px no-repeat;
+}
+
+#login .logincontent .inputdialog{
+	margin:18px 0 0 0;
+	padding:0 15px;
+	border: 1px solid rgb(223,223,223);
+	width:266px;
+	height:45px;
+	color:#111;
+}
+#login .logincontent .loginbutton{
+	margin:30px 0 0 0;
+	padding:0 128px;
+	width:298px;
+	height:48px;
+	color:#fff;
+	/*background: -webkit-gradient(linear, 0% 0%, 0% 100%,from(52,187,87),to(16,141,43));*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(rgb(52,187,87)), to(rgb(16,141,43)));
+	border: 1px solid rgb(223,223,223);
+	font:bold 16px "Microsoft Yahei";
+
+}
+#videoplay{
+	position:fixed;
+	top:50px;
+	left:100px;
+	width:950px;
+	height:600px;
+	background-color:#fff;
+	z-index:1000;
+}
+
+#videoplay .videocontent{
+/*	position:relative;*/
+	margin-left:30px;
+}
+
+#videoplay .videotitle{
+	margin-top:30px;
+}
+#videoclosebtn{
+	position:absolute;
+	top:10px;
+	right:0;
+	cursor: pointer;
+	width: 26px;
+	height: 20px;
+	background: url("./img/icon.png") -296px -100px no-repeat;
+}
+
+

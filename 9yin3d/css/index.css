@@ -1,0 +1,1086 @@
+
+.box {
+    width: 100%;
+    /*height: 1050px;*/
+    height: 960px;
+    position: relative;
+    z-index: 1;
+}
+
+.box1 {
+    top: 0px;
+    left: 0;
+    background: url(../images/bg1.jpg) top center no-repeat;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.box1 .play {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    top: 390px;
+    left: 50%;
+    margin-left: -290px;
+    background: url(../images/play.png) no-repeat;
+}
+
+.pop-video {
+    display: none;
+    width: 720px;
+    height: 400px;
+    background: #000;
+    padding: 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -360px;
+    z-index: 101;
+}
+
+.popboxvideo .close {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: url(../images/close.png) no-repeat;
+}
+
+.box1 .download {
+    position: absolute;
+    width: 400px;
+    height: 180px;
+    top: 604px;
+    left: 50%;
+    margin-left: -500px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+}
+
+.box1 .download .cont {
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    z-index: 2;
+    position: absolute;
+    text-indent: 20px;
+}
+
+.box1 .download p {
+    position: absolute;
+    width: 128px;
+    height: 16px;
+    top: 14px;
+    left: 18px;
+    background: url(../images/down_icon.png) left center no-repeat;
+    font: normal 14px/16px "Microsoft Yahei";
+    color: #fff;
+}
+
+.box1 .download .downbg {
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    top: 0;
+    left: 0;
+    background: url("../images/dl-bg.png") 0 0 no-repeat;
+}
+
+.box1 .download .dl_ewm {
+    position: absolute;
+    top: 38px;
+    left: 18px;
+    width: 128px;
+    height: 126px;
+}
+
+.box1 .download .dl_1 {
+    top: 20px;
+}
+
+.box1 .download .dl_2 {
+    top: 95px;
+}
+
+.box1 .download .dl_btn {
+    width: 222px;
+    height: 67px;
+    position: absolute;
+    right: 15px;
+}
+
+.pop-order, .pop-down {
+    width: 760px;
+    min-height: 540px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -270px;
+    margin-left: -380px;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 101;
+}
+
+.popboxfreestore .close {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    background: url(../images/close.png) no-repeat;
+}
+
+.popboxfreestore h2 {
+    width: 100%;
+    height: 88px;
+    font: bold 32px/88px "Microsoft Yahei";
+    color: #1f1f29;
+    text-align: center;
+}
+
+.popboxfreestore .steps {
+    width: 420px;
+    display: table;
+    height: auto;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+    border-top: 1px solid #737373;
+    border-bottom: 1px solid #737373;
+}
+
+.popboxfreestore .step {
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    font: normal 18px/28px "Microsoft Yahei";
+}
+
+.popboxfreestore .step span {
+    float: left;
+    width: 95px;
+    height: 25px;
+    border-right: 1px solid #1f1f29;
+    font: bold 25px/1 "Microsoft Yahei";
+}
+
+.popboxfreestore .step p {
+    margin-left: 130px;
+}
+
+.popboxfreestore .steps .tip {
+    float: left;
+    margin-top: 20px;
+    font: normal 14px/1.5 "Microsoft Yahei";
+    color: #333;
+    text-align: center;
+}
+
+.popboxfreestore .ewm {
+    width: 420px;
+    height: 155px;
+    margin: 0 auto;
+}
+
+.popboxfreestore .ewm .mshop {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.popboxfreestore .sns {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+    clear: both;
+    font: normal 16px/2 "Microsoft Yahei";
+    color: #1f1f29;
+}
+
+.box1 .gift {
+    position: absolute;
+    right: -147px;
+    top: -10px;
+    width: 124px;
+    height: 136px;
+    background: url("../images/gift.png") 0 0 no-repeat;
+}
+
+.box1 .pre {
+    position: absolute;
+    right: -147px;
+    top: 130px;
+    width: 132px;
+    height: 42px;
+    background: url("../images/pre_btn.jpg") 0 0 no-repeat;
+}
+
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 960px;
+    overflow: hidden;
+}
+
+.box2 .sec {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    width: 100%;
+    width: 1920px;
+    height: 960px;
+}
+
+/*.box2 .sec.cur{
+	display: block;
+}*/
+
+.box2 .subnav {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -502px;
+    width: 1003px;
+    height: 130px;
+    background: url(../images/subnav.png);
+    z-index: 100;
+}
+
+.box2 .subnav .subnavdiv {
+    margin-left: 113px;
+    width: 751px;
+    height: 130px;
+}
+
+.box2 .subnav a {
+    display: block;
+    float: left;
+    margin-right: 18.7px;
+    padding: 41px 51px;
+    width: 32px;
+    height: 42px;
+    font: normal 16px/24px "Microsoft Yahei";
+    color: #fff;
+}
+
+.box2 .subnav a.cur {
+    background: url(../images/subnavhv.png) 0 0 no-repeat;
+}
+
+.box2 .subnav a:hover {
+    background: url(../images/subnavhv.png) 0 0 no-repeat;
+}
+
+.box2 .subnav a.nrm {
+    margin-right: 0;
+}
+
+.box2 .secdiv {
+    position: absolute;
+    top: 0;
+    /*left:50%;*/
+    /*margin-left:-960px;*/
+    /*width:1920px;*/
+    height: 960px;
+    overflow: hidden;
+}
+
+.box2 .secswpdiv {
+    display: none;
+    position: absolute;
+    top: 0;
+    /*left:50%;*/
+    /*margin-left:-960px;*/
+    width: 1920px;
+    height: 960px;
+    overflow: hidden;
+}
+
+.box2 .secswpdiv.cur {
+    display: block
+}
+
+.box2 .sec1 {
+    background: url(../images/bg2.jpg) 0 0 no-repeat;
+}
+
+.box2 .sec1 p {
+    position: absolute;
+    top: 206px;
+    left: 50%;
+    margin-left: -402px;
+    width: 804px;
+    font: normal 16px "Microsoft Yahei";
+}
+
+.box2 .sec1 .flag {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    margin-left: -390px;
+    width: 780px;
+    height: 313px;
+}
+
+.box2 .sec1 .flag .flagone {
+    position: absolute;
+    top: 0;
+    width: 316px;
+    height: 312px;
+}
+
+.box2 .sec1 .flag .redflag {
+    left: 0;
+    background: url(../images/camp.png) 0 0 no-repeat;
+}
+
+.box2 .sec1 .flag .yelflag {
+    right: 0;
+    background: url(../images/confraternity.png) 0 0 no-repeat;
+}
+
+.box2 .sec1 .flag .flagone .flagbtndiv {
+    position: absolute;
+    top: 124px;
+    left: 69px;
+}
+
+.box2 .sec1 .flag .flagone .flagbtn {
+    display: block;
+    margin-top: 15px;
+    padding: 12px 58px;
+    width: 65px;
+    height: 20px;
+    font: normal 16px "Microsoft Yahei";
+}
+
+.box2 .sec1 .flag .flagone .redflagbtn {
+    border: 2px solid #fd9766;
+    color: #fd9766;
+
+}
+
+.box2 .sec1 .flag .flagone .yelflagbtn {
+    border: 2px solid #fffc6a;
+    color: #fffc6a;
+}
+
+.box2 .sec1 .flag .flagone .redflagbtn:hover {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.box2 .sec1 .flag .flagone .yelflagbtn:hover {
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.box2 .sec2 {
+    background: url(../images/bg3.jpg) 0 0 no-repeat;
+}
+
+.box2 .sec2 p {
+    position: absolute;
+    top: 220px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    font: normal 16px/36px "Microsoft Yahei";
+}
+
+.box2 .sec2 .itemdiv {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    margin-left: -483.5px;
+    width: 973px;
+    height: 295px;
+}
+
+.box2 .sec2 .itemone {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    width: 238px;
+    height: 302px;
+}
+
+.box2 .sec2 .itemone.nmr {
+    margin-right: 0;
+}
+
+.box2 .sec2 .itemone.item1 {
+    background: url(../images/item1.png);
+}
+
+.box2 .sec2 .itemone.item2 {
+    background: url(../images/item2.png);
+}
+
+.box2 .sec2 .itemone.item3 {
+    background: url(../images/item3.png);
+}
+
+.box2 .sec2 .itemone.item4 {
+    background: url(../images/item4.png);
+}
+
+.box2 .sec2 .itemone p {
+    position: absolute;
+    margin-left: 0;
+    top: 230px;
+    left: 18px;
+    width: 200px;
+    text-align: center;
+    color: #ffffcc;
+    font: normal 16px "Microsoft yahei";
+}
+
+.box2 .sec2 .box3btn {
+    position: absolute;
+    bottom: 222px;
+    left: 50%;
+    margin-left: -185px;
+    width: 335px;
+    height: 85px;
+    background: url(../images/box3btn.png) 0 0 no-repeat;
+}
+
+.box2 .sec3 {
+    background: url(../images/bg4.jpg) 0 0 no-repeat;
+}
+
+.box2 .sec3 .weapon {
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 486px;
+}
+
+.box2 .sec3 .weapon.cur {
+    display: block;
+}
+
+.box2 .sec3 .weapon .weapontext1 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 136px;
+    height: 179px;
+    background: url(../images/overlordtext.png) 0 0 no-repeat;
+    z-index: 1;
+}
+
+.box2 .sec3 .weapon .weaponimg2 {
+    position: absolute;
+    top: -200px;
+    left: -50px;
+}
+
+.box2 .sec3 .weapon .weapontext2 {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    width: 154px;
+    height: 197px;
+    background: url(../images/phantomtext.png) 0 0 no-repeat;
+    z-index: 1;
+}
+
+.box2 .sec3 .weapon .weaponimg1 {
+    position: absolute;
+    top: -100px;
+    left: -50px;
+}
+
+.box2 .sec3 .arr {
+    position: absolute;
+    top: 320px;
+    width: 36px;
+    height: 163px;
+}
+
+.box2 .sec3 .arr-l {
+    left: 458px;
+    background: url(../images/arrl.png) 0 0 no-repeat;
+}
+
+.box2 .sec3 .arr-r {
+    right: 458px;
+    background: url(../images/arrr.png) 0 0 no-repeat;
+}
+
+.box2 .sec4 {
+    background: url(../images/bg5.jpg) 0 0 no-repeat;
+}
+
+.box2 .sec4video {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    /*width:100%;*/
+    width: 1920px;
+    height: 960px;
+    z-index: 1;
+}
+
+.box2 .sec4 p {
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    margin-left: -240px;
+    width: 740px;
+    font: normal 16px/36px "Microsoft Yahei";
+}
+
+.box2 .sec4 .tag1 {
+    position: absolute;
+    top: 396px;
+    left: 940px;
+    width: 367px;
+    height: 129px;
+    background: url(../images/option1.png) 0 -129px no-repeat;
+}
+
+.box2 .sec4 .tag1:hover {
+    background: url(../images/option1.png) 0 0 no-repeat;
+}
+
+/*光动画*/
+.box2 .sec4 .tag1:hover .light {
+    position: absolute;
+    opacity: 0;
+    margin: -25px -25px 0 0;
+    width: 50px;
+    height: 50px;
+    background: url(../images/light1.png) 0 0 no-repeat;
+}
+
+@-webkit-keyframes line1 {
+    0% {
+        top: 0px;
+        right: 65px;
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    100% {
+        top: 65px;
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+.box2 .sec4 .tag1:hover .light1 {
+    top: 0px;
+    right: 65px;
+    -webkit-animation: line1 2s 0s ease-in-out none;
+}
+
+@-webkit-keyframes line2 {
+    0% {
+        top: 65px;
+        right: 0px;
+        opacity: 1;
+    }
+    100% {
+        top: 130px;
+        right: 65px;
+        opacity: 1;
+    }
+}
+
+.box2 .sec4 .tag1:hover .light2 {
+    top: 0px;
+    right: 65px;
+    -webkit-animation: line2 2s 2s ease-in-out none;
+}
+
+@-webkit-keyframes line3 {
+    0% {
+        top: 130px;
+        right: 65px;
+        opacity: 1;
+    }
+    100% {
+        top: 65px;
+        right: 130px;
+        opacity: 1;
+    }
+}
+
+.box2 .sec4 .tag1:hover .light3 {
+    top: 0px;
+    right: 65px;
+    -webkit-animation: line3 2s 4s ease-in-out none;
+}
+
+@-webkit-keyframes line4 {
+    0% {
+        top: 65px;
+        right: 130px;
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        top: 0px;
+        right: 65px;
+        opacity: 0;
+    }
+}
+
+.box2 .sec4 .tag1:hover .light4 {
+    top: 0px;
+    right: 65px;
+    -webkit-animation: line4 2s 6s ease-in-out none;
+}
+
+.box2 .sec4 .tag2 {
+    position: absolute;
+    top: 445px;
+    left: 475px;
+    width: 338px;
+    height: 129px;
+    background: url(../images/option2.png) 0 -129px no-repeat;
+}
+
+.box2 .sec4 .tag2:hover {
+    background: url(../images/option2.png) 0 0 no-repeat;
+}
+
+.box2 .sec4 .tag3 {
+    position: absolute;
+    top: 550px;
+    left: 1085px;
+    width: 363px;
+    height: 129px;
+    background: url(../images/option3.png) 0 -129px no-repeat;
+}
+
+.box2 .sec4 .tag3:hover {
+    background: url(../images/option3.png) 0 0 no-repeat;
+}
+
+.box3 {
+    position: relative;
+    top: 0;
+    left: 0;
+    /*width:1920px;*/
+    width: 100%;
+    height: 698px;
+    background: url(../images/bg6.jpg) 0 0 no-repeat;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.box3 .btndiv {
+    position: absolute;
+    top: 146px;
+    left: 50%;
+    margin-left: -501px;
+    width: 1002px;
+    height: 381px;
+}
+
+.box3 .btndiv .btnone {
+    display: block;
+    float: left;
+    margin-right: 31px;
+    width: 313px;
+    height: 89px;
+    background: url(../images/btnbg.png) 0 0 no-repeat;
+}
+
+.box3 .btndiv .btnone.nmr {
+    margin-right: 0px;
+
+}
+
+.box3 .btndiv .btnone p {
+    margin-top: 35px;
+    text-align: center;
+    color: #000;
+    font: normal 16px "Microsoft yahei";
+}
+
+.box3 .focus {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+    width: 414px;
+    height: 237px;
+    background: url(../images/focus.jpg) 0 0 no-repeat;
+}
+
+.box3 .btndiv .followtitle {
+    position: absolute;
+    display: block;
+    top: 32px;
+    left: 208px;
+    color: #000;
+    font: bold 15px/19.5px "Microsoft yahei";
+}
+
+.box3 .btndiv .followdes {
+    position: absolute;
+    display: block;
+    top: 100px;
+    left: 210px;
+    color: #000;
+    font: normal 10.5px/19.5px "Microsoft yahei";
+}
+
+.box3 .btndiv .s-share {
+    position: absolute;
+    top: 330px;
+    left: 203px;
+    width: 134px;
+    height: 37px;
+}
+
+.box3 .btndiv .s-share .sharebox {
+    display: block;
+    float: left;
+    margin-right: 8px;
+    width: 36px;
+    height: 36px;
+}
+
+.box3 .btndiv .moreact {
+    display: block;
+    position: absolute;
+    top: 119px;
+    left: 414px;
+    width: 585px;
+    height: 263px;
+    background: url(../images/moreact.png) 0 0 no-repeat;
+}
+
+.mask {
+    display: none;
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.7;
+    /*filter: alpha(opacity=70);*/
+    z-index: 100;
+}
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    color: #3d3d3d;
+    overflow: hidden;
+    display: none;
+}
+
+.popup .layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.popup .close {
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    background: url(../images/closebtn.png) center no-repeat;
+    background-size: 100%;
+    left: 50%;
+    top: 90px;
+    margin-left: 395px;
+}
+
+.popup .wrap {
+    position: relative;
+    width: 900px;
+    height: 738px;
+    margin: 80px auto 0 auto;
+    border-radius: 20px;
+    padding: 50px 25px;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.popup .wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popup h2 {
+    text-align: center;
+    color: #ab964d;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.popup h3 {
+    color: #ab964d;
+    font-size: 24px;
+    line-height: 1;
+    padding-bottom: 17px;
+    border-bottom: 2px dashed #c9c9c9;
+    margin-bottom: 25px;
+}
+
+.popup-txt .wrap {
+    background-color: #fff;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.popup-txt .box, .popup-txt .content {
+    height: 650px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.popup-txt1 h3 {
+    text-align: center;
+    color: #ab964d;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.popup-txt1 .wrap {
+    padding: 20px;
+    height: 770px;
+}
+
+
+.popup-txt2 .box {
+    display: none;
+    height: 500px;
+    overflow-y: hidden;
+}
+.popup-txt2 .content{
+    height:450px;
+}
+.popup-txt2 .box.show {
+    display: block;
+}
+
+.popup-txt2 .tab {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.popup-txt2 .tab span {
+    font-size: 24px;
+    display: inline-block;
+    width: 174px;
+    height: 54px;
+    margin: 8px;
+    color: #fff;
+    line-height: 54px;
+    background: url("../images/popbtnbg1.png") 0 0 no-repeat;
+}
+
+.popup-txt2 .tab span.active {
+    background-position: 0 -54px;
+}
+
+
+.popup-gift .btn,
+.popup-suc .btn,
+.popup-server .btn {
+    display: block;
+    width: 60%;
+    background: #A70000;
+    text-align: center;
+    padding: 0.3rem 0;
+    margin: 60px auto 40px auto;
+    font-size: 40px;
+    line-height: 1;
+    color: #fff;
+}
+
+.popup-gift select,
+.popup-suc select,
+.popup-server select {
+    padding-left: 10px;
+    font: normal 30px/1 "microsoft yahei";
+    display: block;
+    width: 50%;
+    height: 100px;
+    margin: 50px auto;
+}
+
+.popup-gift img,
+.popup-suc img,
+.popup-server img {
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.popup-gift p,
+.popup-suc p,
+.popup-server p {
+    width: 90%;
+    margin: 0 auto;
+    font: normal 30px/1.5;
+}
+
+.popup-gift h3,
+.popup-suc h3,
+.popup-server h3 {
+    text-align: center;
+    font: normal 40px/1 "microsoft yahei";
+}
+
+.popup-gift .atten,
+.popup-suc .atten,
+.popup-server .atten {
+    text-align: center;
+}
+
+.popup-gift .wrap,
+.popup-suc .wrap,
+.popup-server .wrap {
+    height: auto;
+}
+
+@keyframes movetip {
+    0% {
+        bottom: 40px;
+    }
+    50% {
+        bottom: 30px;
+    }
+    100% {
+        bottom: 40px;
+    }
+}
+
+@-webkit-keyframes movetip {
+    0% {
+        bottom: 40px;
+    }
+    50% {
+        bottom: 30px;
+    }
+    100% {
+        bottom: 40px;
+    }
+}
+
+.scroll-tip {
+    position: fixed;
+    z-index: 2;
+    width: 65px;
+    height: 49px;
+    background: url(../images/downtip.png) no-repeat;
+    left: 50%;
+    margin-left: -32px;
+    bottom: 30px;
+    -webkit-animation: ease-in-out movetip 2s infinite;
+}
+.pop {
+    display: none;
+    width: 600px;
+    min-height: 220px;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -300px;
+    z-index: 9999;
+    background: #fff
+}
+
+.pop h1 {
+    height: 55px;
+    background: #002550;
+    position: relative
+}
+
+.pop h1 .close {
+    display: block;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    height: 42px;
+    width: 42px;
+    background: url("http://jy3d.woniu.com/static/act/201608/gift/images/close.png") 0 0 no-repeat;
+}
+
+.pop .cont h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font: bold 25px/1.0 "microsoft yahei";
+    text-align: center
+}
+
+.pop .cont .btn {
+    display: block;
+    width: 50%;
+    background: #A70000;
+    text-align: center;
+    padding: 20px 0;
+    margin: 40px auto 10px auto;
+    font: normal 20px/1.0 "microsoft yahei";
+    color: #fff
+}
+
+.pop .cont .btn:hover {
+    background: #ce3939
+}
+
+.pop .cont select {
+    padding-left: 10px;
+    font: normal 20px/1.0 "microsoft yahei";
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 40px auto
+}
+
+.pop .cont img {
+    display: block;
+    margin: 20px auto
+}
+
+.pop .cont p {
+    width: 80%;
+    margin: 0 auto;
+    font: normal 18px/1.5 "microsoft yahei"
+}
+
+.pop .cont h3 {
+    text-align: center
+}

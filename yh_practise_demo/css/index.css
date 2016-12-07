@@ -1,0 +1,734 @@
+body{
+	margin:0;
+}
+a{
+	color:#fff;
+}
+
+.plh{
+	/*占位符*/
+	background-image: url(../img/placeholder2.jpg);
+	background-repeat: repeat;
+}
+.plh:after{
+	content:"placeholder";
+}
+
+.pagediv{
+	min-width:1400px;
+}
+
+.page{
+	position: relative;
+	width:100%;
+	min-width:1400px;
+	overflow: hidden;
+	background-color: #000;
+}
+.page1{
+	height: 1000px;
+	overflow: hidden;
+	background: url(../img/bg1.jpg)  0 0 no-repeat;
+}
+
+.left{
+	position: fixed;
+	top:55px;
+	left:0;
+	width:357px;
+	height:100%;
+	background-color: #000;
+	z-index:999;
+}
+.fold{
+	left:-300px;
+}
+.totop{
+	top:0;
+}
+.left .content{
+	width:300px;
+}
+
+.right{
+	position: fixed;
+	top:0;
+	right:0;
+	width:100px;
+	height:100%;
+	background: url(http://yh.woniu.com/static/web20151106/images/aside-r.png) no-repeat;
+	z-index:11;
+}
+.right .scrollcontent{
+	display: block;
+	margin:351px 0 0 -1px;
+}
+.right a{
+	display: block;
+	margin:2.95px 0 0 8px;
+	padding: 0 0 0 11px;
+	color:#fff;
+	font:normal 25px/48px "KaiTi";
+}
+.right .cur{
+	background: url(http://yh.woniu.com/static/web20151106/images/squr.png) no-repeat;
+}
+#intrvideo{
+	position: absolute;
+	top:-40px;
+}
+
+#skip{
+	display: block;
+	position: fixed;
+	width: 43px;
+	height: 30px;
+	top: 80px;
+	right: 16px;
+	background: url(http://yh.woniu.com/static/web20151106/images/jump.png) no-repeat;
+	z-index: 11;
+}
+#sndstop{
+	position: fixed;
+	width: 43px;
+	height: 30px;
+	top: 120px;
+	right: 16px;
+	background: url(http://yh.woniu.com/static/web20151106/images/voice.png) 0 0 no-repeat;
+	z-index: 11;
+}
+
+a.logo{
+	display: block;
+	width:300px;
+	height:110px;
+	/*background-image: url(../img/placeholder2.jpg);
+	background-repeat: repeat;*/
+}
+a.qrcode{
+	display: block;
+	margin:50px auto;
+	width:250px;
+	height:200px;
+
+}
+.nav{
+	/*float: right;*/
+	position: absolute;
+	top:0;
+	right:0;
+	width: 57px;
+	height:100%;
+	background-color: rgb(155,1,5);
+}
+.appoint{
+	display: block;
+	width: 244px;
+	margin: 35px auto 40px;
+}
+.page1edge{
+	position: absolute;
+	top:40px;
+	left:50px;
+}
+
+.page1main{
+	position: absolute;
+	top:20%;
+	left:30%;
+}
+
+.dlmsg2{
+	margin:20px 15px;
+	width:305px;
+	height:110px;
+	background: url(http://yh.woniu.com/static/web20151106/images/downbg.jpg);
+}
+.slogan{
+}
+
+.dlmsg{
+	position: absolute;
+	top:300px;
+	left:50px;
+	margin:20px 20px;
+	width:305px;
+	height:110px;
+	background: url(http://yh.woniu.com/static/web20151106/images/downbg.jpg);
+}
+.dlqrcode{
+	float: left;
+	margin-left: 27px;
+	margin-top: 3px;
+	width:103px;
+	height: 103px;
+}
+.dl-ios{
+	float: left;
+	margin:3px 3px;
+	width:165px;
+	height:48px;
+}
+.dl-adrd{
+	float: left;
+	margin:3px 3px;
+	width:165px;
+	height:48px;
+}
+
+.page1 .replay{
+	/*float: left;*/
+	position: absolute;
+	top:330px;
+	left:380px;
+	display: block;	
+	width:106px;
+	height: 107px;
+	background: url(../img/replay.png) 0 0 no-repeat;
+}
+
+.page2{
+	width:100%;
+	height: 1000px;
+	/*height:866px;*/
+	background: url(../img/bg2.jpg) right top  no-repeat ;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.page2 .content{
+	width: 1000px;
+	height: 750px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.sellpointprebtn{
+	position: absolute;
+	top: 380px;
+	left: -90px;
+	width: 36px;
+	height: 68px;
+	background: url(http://yh.woniu.com/static/web20151106/images/leftbtn.png) no-repeat;
+	z-index: 5;
+}
+
+.sellpointnextbtn{
+	position: absolute;
+	top: 380px;
+	right: 60px;
+	width: 36px;
+	height: 68px;
+	background: url(http://yh.woniu.com/static/web20151106/images/rightbtn.png) no-repeat;
+	z-index: 5;
+}
+
+ul.sellpoint{
+	width:1000px;
+	height:670px;
+	background: url(http://yh.woniu.com/static/web20151106/images/feature-bg.png) no-repeat;
+}
+
+ul.sellpoint li{
+	display: none;
+}
+ul.sellpoint li.cur{
+	position: absolute;
+	width: 780px;
+	height: 443px;
+	/*background: #000;*/
+	top: 180px;
+	left: 26px;
+	display: block;
+
+}
+.titdiv{
+	position: absolute;
+	top: -115px; 
+	left:186px;
+	width:440px;
+	height:120px;
+	z-index:2;
+}
+.sellpoint .cur .title{
+	margin:0 auto;
+	
+}
+/*.sellpoint .cur .title:nth-child(1){
+	left:290px;
+}*/
+.sellpoint .cur .scr{
+	/*position: absolute;
+	top: -115px; 
+	left:310px;*/
+}
+
+.sellpoint .cur .pepl{
+	position: absolute;
+	bottom: -24px;
+	right: -148px;
+	z-index: 1;
+}
+
+.sellpoint .sellpoint-skip{
+	width: 85%;
+	height: 30px;
+	position: absolute;
+	bottom: 140px;
+	text-align: center;
+	z-index: 2;
+
+}
+
+.sellpoint .sellpoint-skip a{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background: url(http://yh.woniu.com/static/web20151106/images/page2-icon.png) 0 -26px no-repeat;
+	border-radius: 50%;
+	margin: 0 3px;
+}
+.sellpoint .sellpoint-skip a.cur{
+	background-position: 0 0;
+}
+
+
+
+.page3{
+	width:100%;
+	height: 1000px;
+	background: url(../img/bg2.jpg) right top  no-repeat ;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.page3 .flower{
+	width: 842px;
+	height: 764px;
+	background: url(http://yh.woniu.com/static/web20151106/images/page3-flower.png) no-repeat;
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	margin-left: -320px;
+	z-index: 1;
+}
+
+.page3 .job{
+	position: absolute;
+	width:860px;
+	height:700px;
+	top:70px;
+	left:50%;
+	margin-left:-300px;
+	/*background: #fff;*/
+}
+.page3 .jobbox{
+	display: none;
+	position: absolute;
+	left: 0px;
+	bottom: 0;
+	width:843px;
+	height:800px;
+}
+
+.page3 .jobbtn1,.jobbtn2{
+	position: absolute;
+	width:76px;
+	height:76px;
+	z-index: 2;
+}
+
+.jobbtn1.cur,.jobbtn2.cur{
+	width:74px;
+	height:74px;
+	border: 2px solid #f00;
+}
+
+.page3 .jobbtn1{
+	top:300px;
+	left:50px;
+	background: url(../img/job-header.jpg) 0 0 no-repeat;
+}
+
+.page3 .jobbtn2{
+	top:200px;
+	left:50px;
+	background: url(../img/job-header.jpg) 0 -76px no-repeat;
+}
+
+.jobbox.cur{
+	display: block;
+}
+
+.jobbox  .intro{
+	position: absolute;
+	top:505px;
+	left:0;
+	width: 840px;
+	height:285px;
+	z-index: 3;
+}
+
+.jobbox.job1 .intro{
+	background: url(http://yh.woniu.com/static/web20151106/images/page3-con2.png) no-repeat;
+}
+.jobbox.job2 .intro{
+	background: url(http://yh.woniu.com/static/web20151106/images/page3-con1.png) no-repeat;
+}
+
+.intro .cont1,.intro .cont2,.intro .cont3,.intro .cont4{
+	display: none;
+}
+.cont1.cur,.cont2.cur,.cont3.cur,.cont4.cur{
+	display: block;
+}
+
+.jobbox .intrnav{
+	position: absolute;
+	left:250px;
+	top:60px;
+}
+.jobbox .intrnav a{
+	float: left;
+	margin-right: 15px;
+	padding: 9px 15px;
+	display:block;
+	border: 1px solid #f00;
+	background: rgb(255,255,255,0.5);
+	font:normal 16px "KaiTi";
+
+}
+.jobbox .intrnav a.cur{
+	background-color: #f00;
+	border: 1px solid #f00;
+	color: #fff;
+}
+
+.cont1,.cont2,.cont3,.cont4{
+	/*display: none;*/
+	position: absolute;
+	top :110px;
+	left:250px;
+	width:400px;
+	height:110px;
+	color:#fff;
+	font:normal 16px/30px "KaiTi";
+}
+
+/*.jobbox .cont1,.cont2 .cur{
+	display: block;
+}*/
+
+.jobbox  .video{
+	position: absolute;
+	top:140px;
+	right:10px;
+	width: 175px;
+	height: 115px;
+	margin-left: 20px;
+	background: #000;
+}
+
+.page3 .jobbox .peoimg {
+	position: absolute;
+	z-index: 1;
+}
+
+
+.page4{
+	width:100%;
+	height: 1000px;
+	background: url(../img/bg2.jpg) right top  no-repeat ;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+
+.peointr{
+	width: 860px;
+	height: 580px;
+	position: absolute;
+	top: 250px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.abnav{
+	
+}
+
+.peointr .intr{
+	display: none;
+	width: 390px;
+	height: 270px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.peointr .intr.cur{
+	display: block;
+}
+.peointr h2{
+	display: block;
+	/*position: absolute;*/
+	/*top:0;*/
+	/*left:0;*/
+	z-index:3;
+
+}
+.peointr h4{
+	display: block;
+	margin-top:0px;
+	/*position: absolute;*/
+	/*top:80px;*/
+	/*left:0;*/
+	color: #fff;
+	font:normal 25px "KaiTi","microsoft yahei";
+	z-index:3;
+}
+
+.peointr .about{
+	position: absolute;
+	padding-top: 10px;
+	border-top: 3px solid #f00;
+	z-index: 3;
+}
+
+.peointr .abnav{
+	float: left;
+	width:35px;
+}
+.peointr .abnav .sexlink {
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-top: 10px;
+	background: url(../img/page3-btn.png) 0 -35px no-repeat;
+	font: normal 20px/35px "KaiTi";
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+.peointr .abnav .sexlink.cur{
+	background: url(../img/page3-btn.png) 0 0px no-repeat;
+}
+
+.peointr .general{
+	position: absolute;
+	bottom:0;
+	right:-540px;
+	z-index:1;
+}
+.peointr .detail{
+	display: none;
+	width:390px;
+}
+.detail1.cur,.detail2.cur{
+	display: block;
+}
+.peointr .detail img{
+	float: left;
+	margin:10px 10px;
+}
+
+.peointr .detail h4{
+	float: left;
+	margin:10px 10px 0;
+	width:230px;
+	color: #fff;
+	font:normal 24px "KaiTi";
+}
+.peointr .detail h5{
+	display: block;
+	float: left;
+	margin:5px 10px 0 10px;
+	width:230px;
+	color: #fff;
+	font:normal 10px "microsoft yahei";
+}
+.peointr .list{
+	position: absolute;
+	top:300px;
+	width:100%;
+}
+.peointr .list .acttec,.pastec{
+	display: block;
+	margin-top:12px;
+	width:20px;
+	height:80px;
+	padding:20px 16px;
+	color: #fff;
+	border: 2px solid #39598c;
+	font:normal 20px/20px "microsoft yahei";
+}
+
+.peointr .list .acttec.cur,.pastec.cur{
+	background-color: #f00;
+	border: 2px solid #f00;
+}
+
+.peointr .hero1,.hero2{
+	display: none;
+	position: absolute;
+	top:10px;
+	left:70px;
+	width: 780px;
+	height: 272px;
+}
+.peointr .hero1.cur,.peointr .hero2.cur{
+	display: block;
+}
+.peointr .hero1 a{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin:0 6px 6px 0;
+	background: url(../img/icon1.jpg) no-repeat;
+}
+.peointr .list .hero1 a.cur{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #f00;
+}
+.peointr .list .hero2 a.cur{
+	width: 78px;
+	height: 78px;
+	border: 1px solid #f00;
+}
+.page4  .list  .a1{ background-position: 0 0;}
+.page4  .list  .a2{ background-position: -86px 0;}
+.page4  .list  .a3{ background-position: -172px 0;}
+.page4  .list  .a4{ background-position: -258px 0;}
+.page4  .list  .a5{ background-position: -344px 0;}
+.page4  .list  .a6{ background-position: -429px 0;}
+.page4  .list  .a7{ background-position: -515px 0;}
+.page4  .list  .a8{ background-position: -601px 0;}
+.page4  .list  .a9{ background-position: -687px 0;}
+
+.page4  .list  .a10{ background-position: 0 -86px;}
+.page4  .list  .a11{ background-position: -86px -86px;}
+.page4  .list  .a12{ background-position: -172px -86px;}
+.page4  .list  .a13{ background-position: -258px -86px;}
+.page4  .list  .a14{ background-position: -344px -86px;}
+.page4  .list  .a15{ background-position: -429px -86px;}
+.page4  .list  .a16{ background-position: -515px -86px;}
+.page4  .list  .a17{ background-position: -601px -86px;}
+.page4  .list  .a18{ background-position: -687px -86px;}
+
+.page4  .list  .a19{ background-position: 0 -172px;}
+.page4  .list  .a20{ background-position: -86px -172px;}
+.page4  .list  .a21{ background-position: -172px -172px;}
+.page4  .list  .a22{ background-position: -258px -172px;}
+
+.peointr .hero2 a{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin:0 6px 6px 0;
+	background: url(../img/icon2.jpg) no-repeat;
+}
+
+.page5{
+	width:100%;
+	height:500px;
+	background-color: #000;
+}
+.page5 .media{
+	position: absolute;
+	top:30px;
+	left:50%;
+	margin-left:-300px;
+	width: 838px;
+	color:#f00;
+}
+.page5 .media .lblass{
+	/*float: left;*/
+	margin:50px 0 0 0;
+	width: 100%;
+	height: 30px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #18212c;
+	
+}
+.page5 .media .lbl{
+	float: left;
+	margin:0 0 0 30px;
+	width: 110px;
+	height: 16px;
+	color:#fff;
+	border-right: 1px solid #18212c;
+}
+.page5 .media .lbl.cur{
+	display: block;
+}
+.page5 .media .lbl a{
+	display: inline-block;
+	width:75px;
+	height:28px;
+	margin-top: -10px;
+	text-align: center;
+	font: normal 14px/28px "Microsoft YaHei";
+	color: #a0b2c9;
+}
+.page5 .media .lbl.cur a{
+	border: 1px solid #999;
+}
+
+.page5 .news{
+	margin:20px 0 0 0;
+	width:100%;
+}
+
+.page5 .news .newsone{
+	display: none;
+}
+
+.page5 .news .newsone.cur{
+	display: block;
+}
+
+.page5 .news .newsone img{
+	float: left;
+}
+
+.page5 .news ul{
+	float: left;
+	margin:5px 0 0 50px;
+	width:450px;
+	
+}
+
+.page5 .news ul li{
+	background: url(../img/dot.jpg) left center no-repeat;
+	text-indent: 15px;
+	font:normal 15px/28px "";
+}
+.page5 .news ul li a:hover{
+	text-decoration: underline;
+}
+
+.page5 .news ul li a,.page5 .news ul li span{
+	color:rgb(75,99,126);
+}
+
+.page5 .news ul li span{
+	float: right;
+}
+
+.page5 .logowall{
+	width: 100%;
+	height: 50px;
+	float: left;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.page5 .logowall .logowallscroll{
+	width: 850px;
+	height: 300px;
+}
+.page5 .logowall .logowallscroll a{
+	display: inline-block;
+	margin:0 10px 0 0;
+}

@@ -1,0 +1,96 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+
+<style>
+.con{
+width: 710px;
+height: 484px;
+background-image: url("http://www.51rgb.com/kindeditor/attached/image/20151124/20151124090920_1062.png");
+margin: 0 auto;
+position: relative;
+}
+
+
+
+</style>
+
+<body>
+<div class="con">
+<canvas id="myCanvas" width=1000 height="500"style="position: absolute ; top: 0; left: 0;">
+</canvas>
+</div>
+<script>
+
+window.onload = function () {
+var W = 2000, H = 500, ctx, angle = -20, len = 30, count = 850;
+//W是位移到的X坐标，H是位移到的Y坐标
+//len是啥
+
+var canvas = document.getElementById('myCanvas');//找到画布
+
+ctx = canvas.getContext('2d');//设置绘制环境
+
+ctx.strokeStyle = 'rgba(255, 255, 250, 0.5)';//线条的样式
+var run = setInterval(draw, 100);
+function draw() {
+	ctx.clearRect(0, 0, W, H); //起始坐标/w线条宽度 h线条高度
+	for (var i = 1; i <= count; i++) {
+		xiayu(Math.random() * W, Math.random() * H, angle);
+	}
+}
+//画线
+function xiayu(x, y) {
+	ctx.beginPath();
+	ctx.moveTo(x, y);
+	ctx.lineTo(x + angle, y + len);
+	ctx.lineWidth = .5;
+	ctx.stroke();
+}
+
+
+};
+
+</script>
+
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/leaves.css" />
+</head>
+<body>
+	<div id="leafContainer"></div>
+	<script type="text/javascript" src="./js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="./js/leaves.js"></script>
+	<script>
+		
+	</script>
+</body>
+</html>
+
+
+<!-- 
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HTML5树叶飘落动画-柯乐义</title><base target="_blank" href="http://keleyi.com/keleyi/phtml/css3/" />
+<meta charset="utf-8">
+<link rel="stylesheet" href="http://keleyi.com/keleyi/phtml/css3/15/leaves.css" type="text/css" >
+</head>
+<body>
+<div id="leafContainer"></div>
+<script type="text/javascript" src="http://keleyi.com/keleyi/pmedia/jquery/jquery-1.11.2.min.js"></script>
+<script src="http://keleyi.com/keleyi/phtml/css3/15/leaves.js" type="text/javascript" ></script>
+</body>
+</html> -->

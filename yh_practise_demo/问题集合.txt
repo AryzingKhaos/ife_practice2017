@@ -1,0 +1,35 @@
+写法1
+$('#leftnav').mouseenter(function(){
+	$('#leftnav').removeClass('flod');
+});
+
+写法2
+$('#leftnav').mouseenter(function(){
+	this.removeClass('flod');
+});
+
+为什么写法2会出现undefined错误？
+回答：因为$(selector)是一个jq对象
+
+
+
+
+left: 50%;
+margin-left: -300px;
+为什么要这样写，这样写为什么可以保证居中？
+
+
+
+return一个值和return一个function的具体区别是什么？
+
+
+
+
+
+
+
+
+
+
+
+

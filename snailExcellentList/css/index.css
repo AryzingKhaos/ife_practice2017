@@ -1,0 +1,334 @@
+.bodyd{
+	margin:0;
+	/*width:1920px;*/
+	width:100%;
+	height: 1012px;
+	background: url(../images/bg.jpg) 0 0 no-repeat;
+	padding-top: 68px;
+
+}
+.nmr{
+	margin-right:0!important;
+}
+
+.c-or{
+	color:#f08300!important;
+}
+/*.c-bl{
+	color:;
+}*/
+
+.main{
+	margin:0 auto;
+	/*margin-top: 68px;*/
+	width:1828px;
+	height: 957px;
+}
+
+.logo{
+	margin:0 auto;
+	width:173px;
+	height:80px;
+}
+.logo2{
+	margin:0 auto;
+	width:138px;
+	height:78px;
+}
+.horizon{
+	margin:38px auto 0 auto;
+}
+
+.region{
+	margin:28px 0 0 0;
+	width:1828px;
+	height: 811px;
+}
+
+.region .head1,.head2,.head3{
+	float: left;
+	margin:0 18px 0 0;
+	width:597px;
+	height:87px;
+	background: url(../images/regionsmall.png) 0 0 no-repeat;
+	font:normal 50px/80px "microsoft yahei";
+	text-align: center;
+}
+
+.region .head1{
+	color:#f08300;
+}
+
+.region .head2{
+	color:#00a3e4;
+}
+
+.region .head3{
+	/*margin-right: 0;*/
+	color: #7ec051;
+}
+
+.region .b-reg{
+	float:left;
+	margin:18px 18px 0 0;
+	width:597px;
+	height:704px;
+	background: url(../images/regionbig.png) 0 0 no-repeat;
+}
+.region .ul1{
+	margin:45px;
+}
+.region .scrolllist1{
+	position: relative;
+	height:590px;
+	overflow: hidden;
+}
+.region .scrolllist1 .scroll1{
+	position: absolute;
+	top:0;
+	left:0;
+	/*transition:;*/
+}
+
+.region .ul1 .labh{
+	/*margin:;*/
+}
+
+.region .ul1 li{
+	width:500px;
+	height:53px;
+	background: url(../images/li.png) 0 0 no-repeat;
+}
+
+.region .ul1 li:nth-child(even){
+	background: url(../images/li2.png) 0 0 no-repeat;
+
+}
+
+.region .ul1 .labh h3{
+	float: left;
+	/*margin:0 75px 0 0;*/
+	/*padding: 0 0 13px 0;*/
+	/*width:100px;*/
+	/*text-indent: 20px;*/
+	color:#f08300;
+	font:normal 22px/53px "microsoft yahei";
+}
+.region .ul1 .lab{
+	margin-left: 15px;
+}
+.region  .ul1 .lab p{
+	float: left;
+	/*margin:0 71px 0 0;*/
+	color:#fff;
+	font:normal 22px/53px "Microsoft Yahei";
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.region .ul1 .lab .l-r{
+	margin-right:33px;
+	width:45px;
+}
+
+.region .ul1 .lab .l-n{
+	text-align: left;
+	margin-right:30px;
+	width:88px;
+}
+
+.region .ul1 .lab .l-f{
+	text-align: left;
+	margin-right: 10px;
+	width:187px;
+}
+
+.region .ul1 .lab .l-t{
+	margin-right: 0;
+	width:88px;
+}
+/*
+.region .ul1 li:nth-child(1) .l-r,.region .ul1 li:nth-child(2) .l-r,.region .ul1 li:nth-child(3) .l-r,.region .ul1 li:nth-child(1) .l-t,.region .ul1 li:nth-child(2) .l-t,.region .ul1 li:nth-child(3) .l-t{
+	color:#f08300;
+}*/
+
+/*
+/	ul2部分
+/
+*/
+
+.region .ul2{
+	margin:45px 115px;
+}
+.region .scrolllist2{
+	position: relative;
+	top:;
+	left:;
+	height:590px;
+	overflow: hidden;
+}
+.region .scrolllist2 .scroll2{
+	position: absolute;
+	top:0;
+	left:0;
+	/*transition:;*/
+}
+
+.region .ul2 .labh{
+	/*margin:;*/
+}
+
+.region .ul2 li{
+	width:500px;
+	height:53px;
+	background: url(../images/li3.png) 0 0 no-repeat;
+}
+
+.region .ul2 li:nth-child(even){
+	background: url(../images/li4.png) 0 0 no-repeat;
+
+}
+
+.region .ul2 .labh h3{
+	float: left;
+	/*margin:0 75px 0 0;*/
+	/*padding: 0 0 13px 0;*/
+	/*width:100px;*/
+	/*text-indent: 20px;*/
+	color:#00a3e4;
+	font:normal 22px/53px "microsoft yahei";
+}
+.region .ul2 .lab{
+	margin-left: 15px;
+}
+.region  .ul2 .lab p{
+	float: left;
+	/*margin:0 71px 0 0;*/
+	color:#fff;
+	font:normal 22px/53px "Microsoft Yahei";
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.region .ul2 .lab .l-r{
+	margin-right:150px;
+	width:100px;
+}
+
+.region .ul2 .lab .l-n{
+	margin-right:64px;
+	width:66px;
+}
+
+/*
+/ul3部分
+/
+/
+ */
+
+.ul3{
+	margin:45px 45px;
+}
+
+.ring{
+	float: left;
+	margin:15px;
+	width:8px;
+    height:8px;
+    border-radius:8px;
+    border:3px solid #7ec051;
+}
+
+.ul3 .slice .title{
+	/*float: left;*/
+	color: #7ec051;
+	font:normal 22px/43px "microsoft yahei";
+
+}
+
+.ul3 .slice .textpac{
+	width:510px;
+	height: 265px;
+	overflow: hidden;
+}
+.ul3 .slice .text{
+	margin:0 20px 0 45px;
+	/*text-indent: 20px;*/
+	color:#fff;
+	font:normal 22px "microsoft yahei";
+}
+
+.ul3 .slice .text span{
+	display: block;
+	float: left;
+	margin:0 12px 14px 0;
+	width:88px;
+	height:30px;
+	white-space:nowrap;
+}
+
+
+/*
+/ul整体区域
+/
+*/
+
+
+.ul{
+	margin:45px 45px;
+}
+.ul .scrolllist{
+	position: relative;
+	overflow: hidden;
+	height: 570px;
+}
+.ul .scrolllist .scroll{
+	position: absolute;
+	top:0;
+	left:0;
+}
+.ul .lab{
+	margin-bottom:20px;
+	width:507px;
+	height:64px;
+}
+
+.ul .ring{
+	margin:10px 15px 15px 15px;
+	/*border-color:#f08300;*/
+}
+
+.ul .text-r{
+	width:450px;
+	height:64px;
+	overflow: hidden;
+	color:#fff;
+	font:normal 22px/32px "microsoft yahei";
+}
+
+
+/*
+/ul4 5 6 7 8 9区域
+/
+*/
+
+.ul4 .ring{
+	border-color:#f08300;
+}
+.ul5 .ring{
+	border-color:#00a3e4;
+}
+.ul6 .ring{
+	border-color:#7ec051;
+}
+.ul7 .ring{
+	border-color:#f08300;
+}
+.ul8 .ring{
+	border-color:#00a3e4;
+}
+.ul9 .ring{
+	border-color:#7ec051;
+}
